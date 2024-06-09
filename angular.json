@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "haydt-example:build:production"
+              "buildTarget": "haydt-example:build:production"
             },
             "development": {
-              "browserTarget": "haydt-example:build:development"
+              "buildTarget": "haydt-example:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "haydt-example:build"
+            "buildTarget": "haydt-example:build"
           }
         },
         "test": {
